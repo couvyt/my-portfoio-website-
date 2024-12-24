@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafsa's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="sidebar">
+        <div onclick="hideSidebar()" class="sidebar-nav">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" class="navbar-item">About Me</a></li>
+                <li><a href="#work" class="navbar-item">Work</a></li>
+                <li><a href="#social" class="navbar-item">Social Media</a></li>
+            </ul>
+        </nav>
+        <a href="#" style="padding: 10px 20px; background: #333; color: #fff; text-decoration: none; border-radius: 5px;">
+            <i class="fa-solid fa-download"></i>
+            Resume</a>
+    </header>
+
+    <header>
+        <div>
+            <img src="img/logo.jpg" alt="Logo" style="height: 40px;">
+        </div>
+        <nav class="hideOnmobile">
+            <a href="#about" class="navbar-item">About Me</a>
+            <a href="#work" class="navbar-item">Work</a>
+            <a href="#social" class="navbar-item">Social Media</a>
+        </nav>
+        <a class="hideOnmobile" href="#" style="padding: 10px 20px; background: #333; color: #fff; text-decoration: none; border-radius: 5px;">
+            <i class="fa-solid fa-download"></i>
+            Resume</a>
+
+            <button class="hideOndisktop" onclick="showSidebar()">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+
+            </button>
+
+                
+            
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm Hafsa 👋 – A Designer ✨ Focused on Meaningful Digital Experiences 💻🌱</h1>
+            <p class="hero-subtitle">I believe in designing with empathy, understanding your needs, and crafting solutions that feel just right. Let's turn your vision into something beautiful and functional.</p>
+        </div>
+        <div class="hero-image">
+            <img src="img/Header.jpg" alt="hero image">
+        </div>
+        </section>
+
+        <div class="about-me-container">
+            <div class="photo">
+              <div id="lottie-photo"></div>
+            </div>
+            <div id="about" class="info">
+              <h1>About <span>Me</span></h1>
+              <div class="details">
+                <div class="row">
+                  <div class="detail">
+                    <!-- Phone Icon -->
+                    <img src="img/phone-call (1).png" alt="Phone" class="icon">
+                    <span>+212 718-616490</span>
+                  </div>
+                  <div class="detail">
+                    <!-- Age Icon -->
+                    <img src="img/user.png" alt="Age" class="icon">
+                    <span>22 yrs</span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="detail">
+                    <!-- Email Icon -->
+                    <img src="img/email.png" alt="Email" class="icon">
+                    <span>hafsabaltaqi@gmail.com</span>
+                  </div>
+                  <div class="detail">
+                    <!-- Location Icon -->
+                    <img src="img/gps.png" alt="Location" class="icon">
+                    <span>Marrakech, Morocco</span>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Hi, I’m Hafsa Baltaqi, a passionate creative with a flair for designing unique digital and brand experiences.
+                  With a background in UI/UX design and front-end development, I specialize in crafting visually compelling
+                  designs and user-friendly interfaces. My work spans websites, mobile apps, and branding projects, where I
+                  combine creativity with strategy to deliver impactful solutions.
+                </p>
+                <p>
+                  When I’m not designing or coding, you’ll likely find me spending time with my beloved cats or exploring new
+                  ideas to fuel my creativity. Let’s create something amazing together!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <section id="work" class="my-work">
+            <h2>My Work.</h2>
+            <div class="work-container">
+              <div class="work-card">
+                <img src="img/habitose.jpg" alt="Habitose - Habit Tracker App">
+                <div class="work-content">
+                  <h3>Habitose - Habit Tracker App</h3>
+                  <p>A mobile app for building and tracking healthy habits, with a fun and motivating design.</p>
+                  <a href="https://www.notion.so/Habitose-Habits-Tracker-App-15e019df912680699260e593fae9e88f?pvs=4" class="case-study-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Check Out the Case Study</span>
+                  </a>            
+                </div>
+              </div>
+          
+              <div class="work-card">
+                <img src="img/plantino.jpg" alt="Plantino - Plant Selling Website">
+                <div class="work-content">
+                  <h3>Plantino - Plant Selling Website</h3>
+                  <p>A website designed for selling plants, focusing on aesthetics and usability to connect nature with modern design.</p>
+                  <a href="https://www.notion.so/Plantino-Plant-Selling-Website-15e019df9126806eb178d015d4b31c37?pvs=4" class="case-study-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Check Out the Case Study</span>
+                  </a>
+                            </div>
+              </div>
+          
+              <div class="work-card">
+                <img src="img/coding.jpg" alt="Coding Courses Website">
+                <div class="work-content">
+                  <h3>Coding Courses Website</h3>
+                  <p>A platform offering coding tutorials, certifications, and resources for all skill levels, with an emphasis on user-friendly navigation.</p>
+                  <a href="https://www.notion.so/Coding-Courses-Website-15e019df9126806ca0c7db9908afadfc?pvs=4" class="case-study-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Check Out the Case Study</span>
+                  </a>            </div>
+              </div>
+          
+              <div class="work-card">
+                <img src="img/racipeshare.jpg" alt="RecipeShare - Food Recipe Sharing App">
+                <div class="work-content">
+                  <h3>RecipeShare - Food Recipe Sharing App</h3>
+                  <p>A community-driven app for discovering, sharing, and saving recipes, aimed at fostering a social experience around cooking.</p>
+                  <a href="https://www.notion.so/RecipeShare-Food-Recipe-Sharing-App-15e019df91268044b129dc116a8d841d?pvs=4" class="case-study-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Check Out the Case Study</span>
+                  </a>            </div>
+              </div>
+
+              <div class="hideOndisktop">
+                <div class="work-card">
+                    <img src="img/noirbon.jpg" alt="Noirbon - brand identity">
+                    <div class="work-content">
+                      <h3>Noirbon - Luxury Patisserie Brand</h3>
+                      <p>
+                        Noirbon is a luxury patisserie concept designed to capture the essence of elegance and indulgence. 
+                        The project involved developing a sophisticated brand identity, from selecting a timeless name to 
+                        conceptualizing visuals that appeal to high-end clientele. It highlights my skills in branding strategy, 
+                        creativity, and designing experiences that resonate with premium markets.
+                      </p>
+                      <a href="https://www.figma.com/design/e4vjgOjQn1UGiHVGawrKZc/NoirBon?node-id=0-1&t=4SubuL2748L1Im2A-1" class="case-study-btn">
+                        <i class="fa-solid fa-link"></i> Figma Preview
+                      </a>            </div>
+                  </div>
+              </div>
+              
+
+            </div>
+
+
+            <div class="hideOnmobile">
+                <div class="card">
+                    <div class="noir-card">
+                        <div class="card-image">
+                        <img src="img/noirbon.jpg" alt="Noirbon Brand">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <h2>Noirbon - Luxury Patisserie Brand</h2>
+                      <p>
+                        Noirbon is a luxury patisserie concept designed to capture the essence of elegance and indulgence. 
+                        The project involved developing a sophisticated brand identity, from selecting a timeless name to 
+                        conceptualizing visuals that appeal to high-end clientele. It highlights my skills in branding strategy, 
+                        creativity, and designing experiences that resonate with premium markets.
+                      </p>
+                      <a href="https://www.figma.com/design/e4vjgOjQn1UGiHVGawrKZc/NoirBon?node-id=0-1&t=4SubuL2748L1Im2A-1" class="figma-btn">
+                        <i class="fa-solid fa-link"></i> Figma Preview
+                      </a>
+                    </div>
+                  </div>
+    
+            </div>
+
+
+
+          </section>
+
+          
+
+          <footer class="hideOndisktop" id="social">
+            <nav class="social-links">
+                <a href="www.linkedin.com/in/baltaqi-hafsa-961545254" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="https://www.upwork.com/freelancers/~01a651004547f07cc5?mp_source=share" target="_blank">Upwork</a>
+                <a href="https://pin.it/4xrEjJ7Gh" target="_blank">Pinterest</a>
+            </nav>
+            <div class="bottom-row">
+                <p>© 2024 Hafsa Baltaqi</p>
+                <a href="#content" id="back-upu">Back up ↑</a>
+        </footer>
+
+          <footer class="hideOnmobile" id="social">
+            <p>© 2024 Hafsa Baltaqi</p>
+            <nav>
+                <a href="www.linkedin.com/in/baltaqi-hafsa-961545254" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="https://www.upwork.com/freelancers/~01a651004547f07cc5?mp_source=share" target="_blank">Upwork</a>
+                <a href="https://pin.it/4xrEjJ7Gh" target="_blank">Pinterest</a>
+            </nav>
+            <a href="#content" id="back-up">Back up ↑</a>
+        </footer>
+
+
+        <script src="script.js"></script>
+    <script>
+        // Initialize Lottie
+        lottie.loadAnimation({
+          container: document.getElementById('lottie-photo'), // The container for the animation
+          renderer: 'svg', // Render type
+          loop: true, // Loop the animation
+          autoplay: true, // Start playing automatically
+          path: 'https://lottie.host/3f9ba357-27f4-43b7-8426-337ad90c613c/FUroxXA1bf.json' // Path to your Lottie JSON file
+        });
+      </script>
+
+      <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+      </script>
+</body>
+</html>
